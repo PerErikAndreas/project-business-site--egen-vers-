@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Palace</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>   
+<header>
+<!--Video Header starts-->
+    <video width="100%" autoplay muted loop class="header-video">
+      <source src="production ID_3752507 (1).mp4" type="video/mp4">
+    </video>
+    <div class="overlay-text">
+    <img class="logo" src="./pizzapalacewhite.png">
+    <form class="form" action="http://httpbin.org/anything" method="post">
+      <label>
+        <input id="username" name="username" type="email" placeholder="example@gmail.com"required>
+      </label>
+      <button type="submit">NEWSLETTER</button>
+    </form>   
+  </div>
+</header>
+<!--Pizza Menu-->
+<h1>PIZZA MENU</h1>
+  <button class="accordion">MARGERITA</button>
+<div class="panel">
+  <p>CHEESE</p>
+  <p>TOMATO</p>
+</div>
+<button class="accordion">CAPRICCIOSA</button>
+<div class="panel">
+  <p>CHEESE</p>
+  <p>TOMATO</p>
+  <p>HAM</p>
+  <p>MUSHROOM</p>
+</div>
+<button class="accordion">PIZZA PALACE SPECIAL</button>
+<div class="panel">
+  <p>CHEESE</p> 
+    <p>TOMATO</p>
+    <p>ONION</p> 
+    <p>GARLIC</p>
+    <p>BASIL</p>
+</div>
+    <!--Pizza ordersheet-->
+    <div class="order-box box">
+        <h2>PIZZA ORDER FORM</h2>
+        <section class="order-form">
+          <form action="http://httpbin.org/anything" method="post">
+            <label for ="pizza1">
+              <input type="checkbox" id="pizza1" name="pizza1" value="margerita">
+              MARGERITA
+            </label>
+            <br>
+
+            <label for ="pizza2">
+              <input type="checkbox" id="pizza2" name="pizza2" value="Capricciosa">
+              CAPRICCIOSA
+            </label>
+            <br>
+
+            <label for ="pizza3">
+              <input type="checkbox" id="pizza3" name="pizza3" value="Pizza Palace Special">
+              PIZZA PALACE SPECIAL
+            </label>
+            <br><p></p><br>
+
+          <button type="submit">ORDER</button> <p class="off">Sign up for newsletter and get 10% off!</p>
+          </form>
+        </section>
+    </div>
+  </div>
+<!--Credits-->
+    <footer>
+      <p>Created By Lion Group 1 (EDITED BY ANDREAS AXELSSON <img src="logo-technigo.jpeg" class="footerlogo"> STUDENT)</p>
+      <script src="./script.js"></script>
+  </footer>
+  </body>
+</html>
+
